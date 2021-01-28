@@ -67,16 +67,117 @@
 
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
-}
 
+.discription{
+  display: flex;
+  position: relative;
+}
+.two-columns{
+  margin: auto;
+  width: 80%;
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.two-columns_brief{
+  line-height: 1.2;
+  font-size: 18px;
+  font-style: normal;
+  color: #2f80ed;
+  width: 177px;
+  margin: 0px;
+}
+.two-columns_main-text{
+  width: 80%;
+  min-width: 784px;
+  line-height: 34px;
+  font-size: 24px;
+  font-style: normal;
+  flex-direction: column;
+  justify-content: space-between;
+  display: flex;
+}
+.two-columns_span-accent{
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: bold;
+}
+.two-columns_paragraph{
+  margin: 0;
+}
+.two-columns_paragraph-conclusion{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.digits_content{
+  position: absolute;
+  padding: 50px 0px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.section-title{
+  display: flex;
+  margin: 0px;
+  line-height: 1.15;
+  font-size: 60px;
+  font-style: 700;
+}
+.section-subtitle{
+  display: flex;
+  margin: 20px 0px 0px;
+  line-height: 34px;
+  font-size: 24px;
+  font-style: normal;
+}
+.table{
+  width: 1100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.table_cell{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: flex-start;
+  text-align: left;
+  width: 250px;
+  margin-top: 60px;
+  flex-wrap: wrap;
+}
+.table_heading{
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.table_text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0px;
+  margin-top: 20px;
+}
+.table_text__signature{
+  margin-top: 20px;
+}
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
-  color: white;
+  color: black;
   margin-right: 0;
   margin-top: 80px;
 }
