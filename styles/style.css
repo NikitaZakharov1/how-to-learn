@@ -116,7 +116,7 @@
 }
 .digits{
   position: relative;
-  padding: 0px;
+  padding: 0px 0px 100px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -239,6 +239,7 @@ top: 0;
 right: -210px;
 overflow: hidden;
 background-image: url(../images/kaufman-triangle.svg);
+background-size: cover;
 }
 
 .section-title_theme_dark{
@@ -305,7 +306,7 @@ background-image: url(../images/kaufman-triangle.svg);
   color: white;
   line-height: 30px;
   font-size: 18px;
-  font-weight: normal;
+  font-weight: 700;
 }
 .footer__column-links{
   list-style: none;
