@@ -1,0 +1,11 @@
+.table__text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0px;
+  margin-top: 20px;
+}
