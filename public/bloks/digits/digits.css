@@ -1,6 +1,6 @@
 .digits{
   position: relative;
-  padding: 0px 0px 100px;
+  padding: 100px 0px 100px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
